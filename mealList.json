@@ -139,7 +139,7 @@
     ]
   },
   {
-    "name": "bbq  honey  sausage",
+    "name": "bbq honey sausage",
     "ingredients": [
       "bbq sauce",
       "honey and pork sausages",
@@ -149,7 +149,7 @@
     ]
   },
   {
-    "name": "tuna  pasta  bake",
+    "name": "tuna pasta bake",
     "ingredients": ["tuna", "pasta bake packet", "milk", "pasta", "cheese"]
   }
 ]
