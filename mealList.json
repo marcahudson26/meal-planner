@@ -38,7 +38,12 @@
   },
   {
     "name": "marmite potatos",
-    "ingredients": ["potatoes", "marmite", "chicken kievs", "frozen sweetcorn"]
+    "ingredients": [
+      "potatoes",
+      "marmite",
+      "chicken kievs",
+      "frozen sweetcorn"
+    ]
   },
   {
     "name": "burgers",
@@ -100,7 +105,11 @@
   },
   {
     "name": "gammon eggs",
-    "ingredients": ["gammon joint", "eggs", "potatoes"]
+    "ingredients": [
+      "gammon joint",
+      "eggs",
+      "potatoes"
+    ]
   },
   {
     "name": "spaghetti bolognese",
@@ -150,6 +159,129 @@
   },
   {
     "name": "tuna pasta bake",
-    "ingredients": ["tuna", "pasta bake packet", "milk", "pasta", "cheese"]
+    "ingredients": [
+      "tuna",
+      "pasta bake packet",
+      "milk",
+      "pasta",
+      "cheese"
+    ]
+  },
+  {
+    "name": "macarone cheese",
+    "ingredients": [
+      "bacon",
+      "macarone",
+      "cheese",
+      "plain flour",
+      "milk",
+      "butter",
+      "wholegrain mustard"
+    ]
+  },
+  {
+    "name": "jacket patatoes",
+    "ingredients": [
+      "potatoes",
+      "tuna",
+      "mayo",
+      "cheese",
+      "beans",
+      "chilli con-carne",
+      "prawns",
+      "seafood sauce"
+    ]
+  },
+  {
+    "name": "fajitas",
+    "ingredients": [
+      "chicken",
+      "red pepper",
+      "onion",
+      "fajita packet kit",
+      "fajita packet kit"
+    ]
+  },
+  {
+    "name": "chinese chicken",
+    "ingredients": [
+      "chicken",
+      "eggs",
+      "cornflour",
+      "soy sauce",
+      "garlic granules",
+      "sugar",
+      "light soy sauce",
+      "dark soy sauce",
+      "lemon juice",
+      "honey",
+      "rice"
+    ]
+  },
+  {
+    "name": "spicy chicken",
+    "ingredients": [
+      "rice",
+      "eggs",
+      "chicken",
+      "baking powder",
+      "garlic granules",
+      "butter",
+      "franks buffalo sauce",
+      "honey"
+    ]
+  },
+  {
+    "name": "salt and pepper chicken",
+    "ingredients": [
+      "chicken",
+      "iceburg lettuce",
+      "mayo",
+      "flatbreads",
+      "wraps",
+      "french fries",
+      "onion",
+      "salt and pepper chinese herbs"
+    ]
+  },
+  {
+    "name": "potatoe and leak soup",
+    "ingredients": [
+      "potatoes",
+      "leeks",
+      "vegetable stock",
+      "garlic granules",
+      "par-bake rolls"
+    ]
+  },
+  {
+    "name": "chicken casserole",
+    "ingredients": [
+      "chicken casserole pack",
+      "chicken casserole pack",
+      "chicken",
+      "carrots",
+      "onion",
+      "peas",
+      "potatoes",
+      "milk",
+      "butter"
+    ]
+  },
+  {
+    "name": "sausage casserole",
+    "ingredients": [
+      "sausages",
+      "sausage casserole mix",
+      "onion",
+      "red pepper",
+      "mushrooms",
+      "tin of beans",
+      "potatoes",
+      "milk",
+      "butter"
+    ]
   }
 ]
+
+
