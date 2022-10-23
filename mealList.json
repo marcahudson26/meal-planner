@@ -2,286 +2,917 @@
   {
     "name": "hotdogs",
     "ingredients": [
-      "hot dog sausages",
-      "hot dog sausages",
-      "bread rolls",
-      "onion",
-      "tomato sauce",
-      "mustard"
+      {
+        "name": "hot dog sausages",
+        "amount": 2,
+        "unit": "jar"
+      },
+      {
+        "name": "bread rolls",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "tomato sauce",
+        "amount": 1,
+        "unit": "bottle"
+      },
+      {
+        "name": "mustard",
+        "amount": 1,
+        "unit": "bottle"
+      }
     ]
   },
   {
     "name": "lasagne",
     "ingredients": [
-      "mince",
-      "jar of red lasagne sauce",
-      "tomato passata",
-      "onion",
-      "italian herbs",
-      "garlic",
-      "beef stock cube",
-      "lasagne sheets",
-      "white sauce",
-      "garlic baguette",
-      "garlic baguette"
+      {
+        "name": "mince",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "red lasagne sauce",
+        "amount": 1,
+        "unit": "jar"
+      },
+      {
+        "name": "tomato passata",
+        "amount": 1,
+        "unit": "carton"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "italian herbs",
+        "amount": 1,
+        "unit": "tbs"
+      },
+      {
+        "name": "garlic",
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "beef stock cube",
+        "amount": 1,
+        "unit": "cube"
+      },
+      {
+        "name": "lasagne sheets",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "white sauce",
+        "amount": 1,
+        "unit": "jar"
+      },
+      {
+        "name": "garlic baguette",
+        "amount": 2,
+        "unit": "pack"
+      }
     ]
   },
   {
     "name": "smoked fish",
     "ingredients": [
-      "smoked fish",
-      "new potatoes",
-      "paprika",
-      "garlic granules",
-      "frozen sweetcorn"
+      {
+        "name": "smoked fish",
+        "amount": 2,
+        "unit": "pack"
+      },
+      {
+        "name": "new potatoes",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tbs"
+      },
+      {
+        "name": "garlic granules",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "frozen sweetcorn",
+        "amount": 1,
+        "unit": "pack"
+      }
     ]
   },
   {
     "name": "marmite potatos",
     "ingredients": [
-      "potatoes",
-      "marmite",
-      "chicken kievs",
-      "frozen sweetcorn"
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "marmite",
+        "amount": 1,
+        "unit": "tbs"
+      },
+      {
+        "name": "chicken kievs",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "frozen sweetcorn",
+        "amount": 1,
+        "unit": "pack"
+      }
     ]
   },
   {
     "name": "burgers",
     "ingredients": [
-      "burgers",
-      "burger buns",
-      "burger sauce",
-      "gherkins",
-      "potatoes",
-      "carrots",
-      "red cabbage",
-      "white cabbage",
-      "red onion",
-      "mayo"
+      {
+        "name": "burgers",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "burger buns",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "burger sauce",
+        "amount": 1,
+        "unit": "bottle"
+      },
+      {
+        "name": "gherkins",
+        "amount": 1,
+        "unit": "jar"
+      },
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "red cabbage",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "white cabbage",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "red onion",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "mayo",
+        "amount": 1,
+        "unit": "bottle"
+      }
     ]
   },
   {
     "name": "stew and dumplings",
     "ingredients": [
-      "diced beef",
-      "mince",
-      "beef stock cube",
-      "gravy granuels",
-      "stew vegetable pack",
-      "potatoes",
-      "garlic",
-      "dumpling pack",
-      "dumpling pack"
+      {
+        "name": "diced beef",
+        "amount": 0.5,
+        "unit": "kg"
+      },
+      {
+        "name": "mince",
+        "amount": 0.5,
+        "unit": "kg"
+      },
+      {
+        "name": "beef stock cube",
+        "amount": 1,
+        "unit": "cube"
+      },
+      {
+        "name": "gravy granuels",
+        "amount": 1,
+        "unit": "carton"
+      },
+      {
+        "name": "stew vegetable pack",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "garlic",
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "dumpling mix",
+        "amount": 2,
+        "unit": "pack"
+      }
     ]
   },
   {
     "name": "pie and mash",
     "ingredients": [
-      "pies",
-      "potatoes",
-      "milk",
-      "butter",
-      "gravy granuels",
-      "yorkshire puddings",
-      "frozen mushypeas"
+      {
+        "name": "pies",
+        "amount": 6,
+        "unit": "units"
+      },
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "carton"
+      },
+      {
+        "name": "butter",
+        "amount": 2,
+        "unit": "tbs"
+      },
+      {
+        "name": "gravy granuels",
+        "amount": 1,
+        "unit": "carton"
+      },
+      {
+        "name": "yorkshire puddings",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "frozen mushypeas",
+        "amount": 1,
+        "unit": "pack"
+      }
     ]
   },
   {
     "name": "chicken roast",
     "ingredients": [
-      "large whole chicken",
-      "stuffing",
-      "gravy granuels",
-      "butternut squash",
-      "garlic",
-      "broccoli",
-      "carrots",
-      "leeks",
-      "garlic and herb soft cheese",
-      "double cream",
-      "honey",
-      "potatoes"
+      {
+        "name": "large whole chicken",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "stuffing",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "gravy granuels",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "butternut squash",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "garlic",
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "broccoli",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "carrots",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "leeks",
+        "amount": 2,
+        "unit": "units"
+      },
+      {
+        "name": "garlic and herb soft cheese",
+        "amount": 1,
+        "unit": "tbs"
+      },
+      {
+        "name": "double cream",
+        "amount": 1,
+        "unit": "carton"
+      },
+      {
+        "name": "honey",
+        "amount": 1,
+        "unit": "tbs"
+      },
+      {
+        "name":  "potatoes",
+        "amount": 1,
+        "unit": "pack"
+      }
     ]
   },
   {
     "name": "gammon eggs",
     "ingredients": [
-      "gammon joint",
-      "eggs",
-      "potatoes"
+      {
+        "name": "gammon joint",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "eggs",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "pack"
+      }
     ]
   },
   {
     "name": "spaghetti bolognese",
     "ingredients": [
-      "mince",
-      "onion",
-      "garlic",
-      "cheese",
-      "bolognese sauce",
-      "tomato passata",
-      "italian herbs",
-      "spaghetti pasta"
+      {
+        "name": "mince",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "garlic",
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "cheese",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "bolognese sauce",
+        "amount": 1,
+        "unit": "jar"
+      },
+      {
+        "name": "tomato passata",
+        "amount": 1,
+        "unit": "carton"
+      },
+      {
+        "name": "italian herbs",
+        "amount": 2,
+        "unit": "tbs"
+      },
+      {
+        "name": "spaghetti pasta",
+        "amount": 1,
+        "unit": "pack"
+      }
     ]
   },
   {
     "name": "sausage and mash",
     "ingredients": [
-      "chipolata",
-      "potatoes",
-      "butter",
-      "milk",
-      "gravy granuels",
-      "red onion",
-      "red wine stock pot",
-      "green veg"
+      {
+        "name":  "chipolata",
+        "amount": 2,
+        "unit": "pack"
+      },
+      {
+        "name":  "potatoes",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "butter",
+        "amount": 2,
+        "unit": "tbs"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "carton"
+      },
+      {
+        "name": "gravy granuels",
+        "amount": 1,
+        "unit": "carton"
+      },
+      {
+        "name": "red onion",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "red wine stock pot",
+        "amount": 2,
+        "unit": "units"
+      },
+      {
+        "name": "green veg",
+        "amount": 1,
+        "unit": "units"
+      }
     ]
   },
   {
     "name": "sausages pasta",
     "ingredients": [
-      "sausages",
-      "pasta",
-      "jar of pasta sauce",
-      "chopped tomatoes",
-      "italian herbs"
+      {
+        "name": "sausages",
+        "amount": 2,
+        "unit": "pack"
+      },
+      {
+        "name": "pasta",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "pasta sauce",
+        "amount": 1,
+        "unit": "jar"
+      },
+      {
+        "name": "chopped tomatoes",
+        "amount": 1,
+        "unit": "tin"
+      },
+      {
+        "name": "italian herbs",
+        "amount": 12,
+        "unit": "tbs"
+      }
     ]
   },
   {
     "name": "bbq honey sausage",
     "ingredients": [
-      "bbq sauce",
-      "honey and pork sausages",
-      "new potatoes",
-      "garlic granules",
-      "frozen sweetcorn"
+      {
+        "name": "bbq sauce",
+        "amount": 1,
+        "unit": "bottle"
+      },
+      {
+        "name": "honey and pork sausages",
+        "amount": 2,
+        "unit": "pack"
+      },
+      {
+        "name": "new potatoes",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "garlic granules",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "frozen sweetcorn",
+        "amount": 1,
+        "unit": "pack"
+      }
     ]
   },
   {
     "name": "tuna pasta bake",
     "ingredients": [
-      "tuna",
-      "pasta bake packet",
-      "milk",
-      "pasta",
-      "cheese"
+      {
+        "name": "tuna",
+        "amount": 4,
+        "unit": "tin"
+      },
+      {
+        "name": "pasta bake packet",
+        "amount": 2,
+        "unit": "pack"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "carton"
+      },
+      {
+        "name": "pasta",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "cheese",
+        "amount": 1,
+        "unit": "units"
+      }  
     ]
   },
   {
     "name": "macarone cheese",
     "ingredients": [
-      "bacon",
-      "macarone",
-      "cheese",
-      "plain flour",
-      "milk",
-      "butter",
-      "wholegrain mustard"
+      {
+        "name": "bacon",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "macarone",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "cheese",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "carton"
+      },
+      {
+        "name": "butter",
+        "amount": 1,
+        "unit": "tbs"
+      },
+      {
+        "name": "wholegrain mustard",
+        "amount": 1,
+        "unit": "tbs"
+      }
     ]
   },
   {
     "name": "jacket patatoes",
     "ingredients": [
-      "potatoes",
-      "tuna",
-      "mayo",
-      "cheese",
-      "beans",
-      "chilli con-carne",
-      "prawns",
-      "seafood sauce"
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "tuna",
+        "amount": 4,
+        "unit": "tin"
+      },
+      {
+        "name": "mayo",
+        "amount": 1,
+        "unit": "bottle"
+      },
+      {
+        "name": "beans",
+        "amount": 1,
+        "unit": "tin"
+      },
+      {
+        "name": "chilli con-carne",
+        "amount": 1,
+        "unit": "tin"
+      },
+      {
+        "name": "prawns",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "seafood sauce",
+        "amount": 1,
+        "unit": "bottle"
+      }
     ]
   },
   {
     "name": "fajitas",
     "ingredients": [
-      "chicken",
-      "red pepper",
-      "onion",
-      "fajita packet kit",
-      "fajita packet kit"
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "red pepper",
+        "amount": 2,
+        "unit": "units"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "fajita packet kit",
+        "amount": 2,
+        "unit": "pack"
+      }
     ]
   },
   {
     "name": "chinese chicken",
     "ingredients": [
-      "chicken",
-      "eggs",
-      "cornflour",
-      "soy sauce",
-      "garlic granules",
-      "sugar",
-      "light soy sauce",
-      "dark soy sauce",
-      "lemon juice",
-      "honey",
-      "rice"
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "eggs",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "cornflour",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 1,
+        "unit": "bottle"
+      },
+      {
+        "name": "garlic granules",
+        "amount": 1,
+        "unit": "tbs"
+      },
+      {
+        "name": "sugar",
+        "amount": 2,
+        "unit": "tbs"
+      },
+      {
+        "name": "light soy sauce",
+        "amount": 1,
+        "unit": "bottle"
+      },
+      {
+        "name": "dark soy sauce",
+        "amount": 1,
+        "unit": "bottle"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "honey",
+        "amount": 1,
+        "unit": "tbs"
+      },
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "pack"
+      }
     ]
   },
   {
     "name": "spicy chicken",
     "ingredients": [
-      "rice",
-      "eggs",
-      "chicken",
-      "baking powder",
-      "garlic granules",
-      "butter",
-      "franks buffalo sauce",
-      "honey"
+      {
+        "name": "rice",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "eggs",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "baking powder",
+        "amount": 1,
+        "unit": "tbs"
+      },
+      {
+        "name": "garlic granules",
+        "amount": 1,
+        "unit": "tbs"
+      },
+      {
+        "name": "butter",
+        "amount": 1,
+        "unit": "tbs"
+      },
+      {
+        "name": "franks buffalo sauce",
+        "amount": 1,
+        "unit": "bottle"
+      },
+      {
+        "name": "honey",
+        "amount": 2,
+        "unit": "tbs"
+      }
     ]
   },
   {
     "name": "salt and pepper chicken",
     "ingredients": [
-      "chicken",
-      "iceburg lettuce",
-      "mayo",
-      "flatbreads",
-      "wraps",
-      "french fries",
-      "onion",
-      "salt and pepper chinese herbs"
+      {
+        "name": "chicken",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "iceburg lettuce",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "mayo",
+        "amount": 1,
+        "unit": "bottle"
+      },
+      {
+        "name": "flatbreads",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "wraps",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "french fries",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "salt and pepper chinese herbs",
+        "amount": 1,
+        "unit": "units"
+      }
     ]
   },
   {
     "name": "potatoe and leak soup",
     "ingredients": [
-      "potatoes",
-      "leeks",
-      "vegetable stock",
-      "garlic granules",
-      "par-bake rolls"
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "leeks",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name": "vegetable stock cube ",
+        "amount": 2,
+        "unit": "cube"
+      },
+      {
+        "name": "garlic granules",
+        "amount": 1,
+        "unit": "tbs"
+      },
+      {
+        "name": "par-bake rolls",
+        "amount": 1,
+        "unit": "pack"
+      }
     ]
   },
   {
     "name": "chicken casserole",
     "ingredients": [
-      "chicken casserole pack",
-      "chicken casserole pack",
-      "chicken",
-      "carrots",
-      "onion",
-      "peas",
-      "potatoes",
-      "milk",
-      "butter"
+      {
+        "name": "chicken casserole pack",
+        "amount": 2,
+        "unit": "pack"
+      },
+      {
+        "name":  "chicken",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name":  "carrots",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name":  "onion",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name":  "peas",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name":  "potatoes",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name":  "milk",
+        "amount": 1,
+        "unit": "carton"
+      },
+      {
+        "name":  "butter",
+        "amount": 1,
+        "unit": "tbs"
+      }
     ]
   },
   {
     "name": "sausage casserole",
     "ingredients": [
-      "sausages",
-      "sausage casserole mix",
-      "onion",
-      "red pepper",
-      "mushrooms",
-      "tin of beans",
-      "potatoes",
-      "milk",
-      "butter"
+      {
+        "name":  "sausages",
+        "amount": 2,
+        "unit": "pack"
+      },
+      {
+        "name":  "sausage casserole mix",
+        "amount": 2,
+        "unit": "pack"
+      },
+      {
+        "name":  "onion",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name":  "red pepper",
+        "amount": 1,
+        "unit": "units"
+      },
+      {
+        "name":  "mushrooms",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name":  "beans",
+        "amount": 1,
+        "unit": "tin"
+      },
+      {
+        "name": "potatoes",
+        "amount": 1,
+        "unit": "pack"
+      },
+      {
+        "name": "milk",
+        "amount": 1,
+        "unit": "carton"
+      },
+      {
+        "name": "butter",
+        "amount": 1,
+        "unit": "tbs"
+      }
     ]
   }
 ]
-
 
