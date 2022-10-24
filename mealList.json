@@ -15,7 +15,7 @@
       {
         "name": "onion",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "tomato sauce",
@@ -50,7 +50,7 @@
       {
         "name": "onion",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "italian herbs",
@@ -60,7 +60,7 @@
       {
         "name": "garlic",
         "amount": 5,
-        "unit": "cloves"
+        "unit": "clove"
       },
       {
         "name": "beef stock cube",
@@ -170,17 +170,17 @@
       {
         "name": "red cabbage",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "white cabbage",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "red onion",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "mayo",
@@ -225,7 +225,7 @@
       {
         "name": "garlic",
         "amount": 5,
-        "unit": "cloves"
+        "unit": "clove"
       },
       {
         "name": "dumpling mix",
@@ -240,7 +240,7 @@
       {
         "name": "pies",
         "amount": 6,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "potatoes",
@@ -280,32 +280,32 @@
       {
         "name": "large whole chicken",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "stuffing",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "gravy granuels",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "butternut squash",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "garlic",
         "amount": 5,
-        "unit": "cloves"
+        "unit": "clove"
       },
       {
         "name": "broccoli",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "carrots",
@@ -315,7 +315,7 @@
       {
         "name": "leeks",
         "amount": 2,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "garlic and herb soft cheese",
@@ -345,7 +345,7 @@
       {
         "name": "gammon joint",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "eggs",
@@ -370,17 +370,17 @@
       {
         "name": "onion",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "garlic",
         "amount": 5,
-        "unit": "cloves"
+        "unit": "clove"
       },
       {
         "name": "cheese",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "bolognese sauce",
@@ -435,17 +435,17 @@
       {
         "name": "red onion",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "red wine stock pot",
         "amount": 2,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "green veg",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       }
     ]
   },
@@ -535,7 +535,7 @@
       {
         "name": "cheese",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       }  
     ]
   },
@@ -555,7 +555,7 @@
       {
         "name": "cheese",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "milk",
@@ -625,12 +625,12 @@
       {
         "name": "red pepper",
         "amount": 2,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "onion",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "fajita packet kit",
@@ -755,7 +755,7 @@
       {
         "name": "iceburg lettuce",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "mayo",
@@ -780,12 +780,12 @@
       {
         "name": "onion",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "salt and pepper chinese herbs",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       }
     ]
   },
@@ -800,7 +800,7 @@
       {
         "name": "leeks",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name": "vegetable stock cube ",
@@ -840,7 +840,7 @@
       {
         "name":  "onion",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name":  "peas",
@@ -880,12 +880,12 @@
       {
         "name":  "onion",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name":  "red pepper",
         "amount": 1,
-        "unit": "units"
+        "unit": "unit"
       },
       {
         "name":  "mushrooms",
