@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,19 +34,17 @@
     }
 
     marquee {
-      transform: scaleX(-1);
       padding: 0;
       margin: 0;
     }
 
     marquee .burger-dude {
       width: 3rem;
-      transform: scaleX(-1);
+      transition: margin 2s ease;
     }
 
     marquee .fries-dude {
       width: 1rem;
-      transition: margin 2s ease;
     }
 
 
@@ -95,9 +92,8 @@
 
     .refresh-wrapper {
       text-align: right;
-    position: absolute;
-    width: 100%;
-      
+      position: absolute;
+      width: 100%;
     }
   </style>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -118,9 +114,9 @@
       return (
         <div>
           <header>
-            <marquee scrollamount={5}>
-              <img className="fries-dude" src="fries.gif" style={{ marginRight: `${friesDistance}px` }} />
-              <img className="burger-dude" src="fast-food.gif" />
+            <marquee direction="right" scrollamount={5}>
+              <img className="burger-dude" src="fast-food.gif" style={{ marginRight: `${friesDistance}px` }} />
+              <img className="fries-dude" src="fries.gif" />
             </marquee>
           </header>
           <main>
@@ -143,6 +139,6 @@
     const root = ReactDOM.createRoot(document.getElementById("root"));
     root.render(<App />);
   </script>
-  <script src="/background.js"></script>
+  <script src="./background.js"></script>
 </body>
 </html>
