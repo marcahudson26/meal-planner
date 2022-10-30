@@ -1,31 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-    <title>Meal Planner</title>
-    <style>
-      body {
-        margin: 0;
-        background-color: #a885ab;
-      }
-      main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      img {
-        max-width: 100%;
-        max-height: 60vh;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <img src="./fast-food.gif" />
-    </main>
-    <script src="./background.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <title>Meal Planner</title>
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      padding: 1rem;
+    }
+
+    header {
+      background: #a885ab;
+      border-radius: 0 0 7px 7px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 0;
+    }
+
+    marquee {
+      padding: 0;
+      margin: 0;
+    }
+
+    marquee .burger-dude {
+      width: 3rem;
+      transition: margin 2s ease;
+    }
+
+    marquee .fries-dude {
+      width: 1rem;
+    }
+
+
+    * {
+      font-family: "Noto Sans Vai";
+    }
+
+    .card {
+      box-shadow: 0 1px 5px grey;
+      border-radius: 8px;
+      overflow: hidden;
+      max-width: 20rem;
+      position: relative;
+    }
+
+    .card>h3 {
+      text-align: center;
+      text-decoration: underline;
+      font-weight: normal;
+      margin: 15px;
+    }
+
+    .card button.refresh {
+      border: none;
+      background-color: transparent;
+      padding: 0;
+      margin: 15px;
+      cursor: pointer;
+    }
+
+    .card button.refresh img {
+      width: 23px;
+   
+    }
+
+    .card img.food-image {
+      width: 100%;
+    }
+
+    .card>p {
+      padding: 0 15px;
+      text-align: center;
+  
+    }
+
+    .refresh-wrapper {
+      text-align: right;
+      position: absolute;
+      width: 100%;
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Vai&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    function App() {
+      const [friesDistance, setFriesDistance] = React.useState(15);
+
+      setInterval(() => {
+        setFriesDistance(Math.random() * 100);
+      }, 2000)
+
+      return (
+        <div>
+          <header>
+            <marquee direction="right" scrollamount={5}>
+              <img className="burger-dude" src="fast-food.gif" style={{ marginRight: `${friesDistance}px` }} />
+              <img className="fries-dude" src="fries.gif" />
+            </marquee>
+          </header>
+          <main>
+            <h1>Meal Planner</h1>
+            <div className="card">
+              <div className="refresh-wrapper">
+                <button type="button" className="refresh">
+                  <img src="refresh.svg" />
+                </button>
+              </div>
+              <h3>Hotdog</h3>
+              <img className="food-image" src="hotdog.jpg" />
+              <p>2 x hot dog sausages, bread rolls, onion, tomato sauce, mustard.</p>
+            </div>
+          </main>
+        </div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(<App />);
+  </script>
+  <script src="./background.js"></script>
+</body>
 </html>
