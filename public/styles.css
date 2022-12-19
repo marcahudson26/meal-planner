@@ -178,7 +178,7 @@ input[type=range]::-webkit-slider-thumb {
   appearance: none;
   width: 49px;
   height: 23.3px;
-  background: url("./public/mustachetaco.svg");
+  background: url("./mustachetaco.svg");
   cursor: pointer;
 }
 
