@@ -7,6 +7,7 @@ html {
 
 header {
   background: #a968b0;
+  margin-bottom: 20px;
 }
 
 h1,
@@ -76,12 +77,17 @@ marquee .fries-dude {
 .card img.food-image {
   width: 100%;
   height: 300px;
+  object-fit: cover;
 }
 
 .card>p {
   padding: 0 15px;
   text-align: center;
 
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .refresh-wrapper {
@@ -190,7 +196,6 @@ input[type=range]::-moz-range-thumb {
   gap: 30px;
   justify-content: center;
   margin-bottom: 30px;
-  
 }
 footer{
     text-align: center;

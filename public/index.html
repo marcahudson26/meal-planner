@@ -9,8 +9,9 @@
   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./mealList.js"></script>
   <title>Just Feast</title>
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="./styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Vai&display=swap" rel="stylesheet" />
@@ -21,17 +22,34 @@
 
   <div id="root"></div>
 
-  <script type="text/babel">
-    function App() {
+  <script defer type="text/babel">
+    function Header() {
       const [friesDistance, setFriesDistance] = React.useState(15);
-      const [mealCount, setMealCount] = React.useState(5);
-      const maxMeals = 10;
-
       React.useEffect(() => {
         setInterval(() => {
           setFriesDistance(Math.random() * 100);
         }, 2000)
       }, []);
+      return (
+        <header>
+          <marquee direction="right" scrollamount={5}>
+            <img className="burger-dude" src="fast-food.gif" style={{ marginRight: `${friesDistance}px` }} />
+            <img className="fries-dude" src="fries.gif" />
+          </marquee>
+        </header>
+      )
+    }
+
+    function IngredientsDescription({ ingredients }) {
+        const descriptions = ingredients.map(x => `${x.amount} ${x.unit} x ${x.name}`).join(", ");
+        return (
+          <p title={descriptions}>{descriptions}</p>
+        )
+    }
+
+    function App() {
+      const [mealCount, setMealCount] = React.useState(5);
+      const maxMeals = 10;
 
       const handleUpdateMealCount = (value) => {
         if (value < 1) {
@@ -49,12 +67,7 @@
 
       return (
         <div>
-          <header>
-            <marquee direction="right" scrollamount={5}>
-              <img className="burger-dude" src="fast-food.gif" style={{ marginRight: `${friesDistance}px` }} />
-              <img className="fries-dude" src="fries.gif" />
-            </marquee>
-          </header>
+          <Header />
           <main>
             <h1>
               <img className="main-logo" src="logo.svg" alt="Just Feast" />
@@ -87,110 +100,22 @@
                 </div>
               </div>
             </form>
-            <section class="flex-box">
-              <div className="card">
-                <div className="refresh-wrapper">
-                  <button type="button" className="refresh">
-                    <img src="refresh.svg" />
-                  </button>
+            <section className="flex-box">
+              {meals.filter(meal => meal.image).map(meal => (
+                <div key={meal.name} className="card">
+                  <div className="refresh-wrapper">
+                    <button type="button" className="refresh">
+                      <img src="refresh.svg" />
+                    </button>
+                  </div>
+                  <h3>{meal.name}</h3>
+                  <img className="food-image" src={meal.image} />
+                  <IngredientsDescription ingredients={meal.ingredients} />
                 </div>
-                <h3>Hotdog</h3>
-                <img className="food-image" src="hotdog.jpg" />
-                <p>2 x hot dog sausages, bread rolls, onion, tomato sauce, mustard.</p>
-              </div>
-              <div className="card">
-                <div className="refresh-wrapper">
-                  <button type="button" className="refresh">
-                    <img src="refresh.svg" />
-                  </button>
-                </div>
-                <h3>Lasagna</h3>
-                <img className="food-image" src="Lasagna.jpg" />
-                <p>2 x hot dog sausages, bread rolls, onion, tomato sauce, mustard.</p>
-              </div>
-              <div className="card">
-                <div className="refresh-wrapper">
-                  <button type="button" className="refresh">
-                    <img src="refresh.svg" />
-                  </button>
-                </div>
-                <h3>Potato Leek Soup</h3>
-                <img className="food-image" src="Potato-Leek-Soup.jpg" />
-                <p>2 x hot dog sausages, bread rolls, onion, tomato sauce, mustard.</p>
-              </div>
-              <div className="card">
-                <div className="refresh-wrapper">
-                  <button type="button" className="refresh">
-                    <img src="refresh.svg" />
-                  </button>
-                </div>
-                <h3>Sausage Casserole</h3>
-                <img className="food-image" src="sausagecasserole.jpg" />
-                <p>2 x hot dog sausages, bread rolls, onion, tomato sauce, mustard.</p>
-              </div>
-              <div className="card">
-                <div className="refresh-wrapper">
-                  <button type="button" className="refresh">
-                    <img src="refresh.svg" />
-                  </button>
-                </div>
-                <h3>Spaghetti Bolognese</h3>
-                <img className="food-image" src="spaghetti-bolognese.jpg" />
-                <p>2 x hot dog sausages, bread rolls, onion, tomato sauce, mustard.</p>
-              </div>
-              <div className="card">
-                <div className="refresh-wrapper">
-                  <button type="button" className="refresh">
-                    <img src="refresh.svg" />
-                  </button>
-                </div>
-                <h3>Gammon & Eggs</h3>
-                <img className="food-image" src="gammonegg.jpg" />
-                <p>2 x hot dog sausages, bread rolls, onion, tomato sauce, mustard.</p>
-              </div>
-              <div className="card">
-                <div className="refresh-wrapper">
-                  <button type="button" className="refresh">
-                    <img src="refresh.svg" />
-                  </button>
-                </div>
-                <h3>Pie & Mash</h3>
-                <img className="food-image" src="piemash.jpg" />
-                <p>2 x hot dog sausages, bread rolls, onion, tomato sauce, mustard.</p>
-              </div>
-              <div className="card">
-                <div className="refresh-wrapper">
-                  <button type="button" className="refresh">
-                    <img src="refresh.svg" />
-                  </button>
-                </div>
-                <h3>Salt and Pepper Chicken</h3>
-                <img className="food-image" src="Salt-and-Pepper-Chicken.jpg" />
-                <p>2 x hot dog sausages, bread rolls, onion, tomato sauce, mustard.</p>
-              </div>
-              <div className="card">
-                <div className="refresh-wrapper">
-                  <button type="button" className="refresh">
-                    <img src="refresh.svg" />
-                  </button>
-                </div>
-                <h3>Stew & Dumplings</h3>
-                <img className="food-image" src="stewdumplings.jpg" />
-                <p>2 x hot dog sausages, bread rolls, onion, tomato sauce, mustard.</p>
-              </div>
-              <div className="card">
-                <div className="refresh-wrapper">
-                  <button type="button" className="refresh">
-                    <img src="refresh.svg" />
-                  </button>
-                </div>
-                <h3>Tuna Pasta Bake</h3>
-                <img className="food-image" src="tuna-pasta.jpg" />
-                <p>2 x hot dog sausages, bread rolls, onion, tomato sauce, mustard.</p>
-              </div>
+              ))}
             </section>
-            <div class="button-dis">
-              <button class="button-ing" role="button"> Click for your ingredients</button>
+            <div className="button-dis">
+              <button className="button-ing" role="button"> Click for your ingredients</button>
             </div>
             <footer>
               <h4>Made by the Hudson brothers</h4>
