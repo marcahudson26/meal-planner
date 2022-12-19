@@ -1,0 +1,280 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background: #a968b0;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+h4 {
+    font-size: 20px;
+}
+.main-logo {
+  max-width: 22rem;
+  display: block;
+  margin: 0 auto;
+}
+
+marquee {
+  padding: 0;
+  margin: 0;
+}
+
+marquee .burger-dude {
+  width: 3rem;
+  transition: margin 2s ease;
+}
+
+marquee .fries-dude {
+  width: 1rem;
+}
+
+
+* {
+  font-family: "Noto Sans Vai";
+}
+
+.card {
+  box-shadow: 0 1px 5px grey;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 20rem;
+  position: relative;
+
+}
+
+.card>h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: normal;
+  margin: 15px;
+}
+
+.card button.refresh {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.card button.refresh img {
+  width: 23px;
+}
+
+.card img.food-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card>p {
+  padding: 0 15px;
+  text-align: center;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.refresh-wrapper {
+  text-align: right;
+  position: absolute;
+  width: 100%;
+}
+
+.taco-question {
+  display: grid;
+  gap: 1.34rem;
+  grid-template-columns: auto 1fr;
+  width: 100%;
+  max-width: 32rem;
+  margin: 0 auto 1.34rem auto;
+}
+
+.taco-question .taco-guy {
+  text-align: right;
+  width: 23.8vw;
+  max-width: 10rem;
+}
+
+.taco-question .taco-question {
+  text-align: left;
+}
+
+@media screen and (max-width: 350px) {
+  .taco-question {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 0;
+  }
+
+  .taco-question .taco-guy {
+    width: 10rem;
+    text-align: center;
+  }
+}
+
+.speech-bubble {
+  border: 1px solid;
+  padding: 1rem;
+  position: relative;
+}
+
+.speech-bubble::before,
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -40px;
+  width: 30px;
+  display: block;
+  height: 0px;
+  z-index: 1;
+  border-top: 10px solid #d5878700;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #000000;
+}
+
+.speech-bubble::after {
+  width: 46px;
+  border-right-color: #ffffff;
+  top: 10px;
+  left: -55px;
+}
+
+@media screen and (max-width: 350px) {
+
+  .speech-bubble::before,
+  .speech-bubble::after {
+    display: none;
+  }
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  margin-bottom: 1rem;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 49px;
+  height: 23.3px;
+  background: url("./public/mustachetaco.svg");
+  cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 49px;
+  height: 23.3px;
+  border: 0;
+  background: url('mustachetaco.svg');
+  cursor: pointer;
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color:  #a968b0;
+    color: white;
+}
+.button-ing {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  
+}
+
+.button-ing::after,
+.button-ing::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-ing::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #a968b0;
+  border-radius: 10px;
+}
+
+.button-ing::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #522657;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-ing:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-ing:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-ing:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+.button-dis{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 23px
+}
+

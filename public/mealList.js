@@ -1,6 +1,7 @@
-[
+const meals = [
   {
     "name": "hotdogs",
+    "image": "./hotdog.jpg",
     "ingredients": [
       {
         "name": "hot dog sausages",
@@ -31,6 +32,7 @@
   },
   {
     "name": "lasagne",
+    "image": "./Lasagna.jpg",
     "ingredients": [
       {
         "name": "mince",
@@ -86,6 +88,7 @@
   },
   {
     "name": "smoked fish",
+    "image": "",
     "ingredients": [
       {
         "name": "smoked fish",
@@ -116,6 +119,7 @@
   },
   {
     "name": "marmite potatos",
+    "image": "",
     "ingredients": [
       {
         "name": "potatoes",
@@ -141,6 +145,7 @@
   },
   {
     "name": "burgers",
+    "image": "",
     "ingredients": [
       {
         "name": "burgers",
@@ -191,6 +196,7 @@
   },
   {
     "name": "stew and dumplings",
+    "image": "./stewdumplings.jpg",
     "ingredients": [
       {
         "name": "diced beef",
@@ -236,6 +242,7 @@
   },
   {
     "name": "pie and mash",
+    "image": "./piemash.jpg",
     "ingredients": [
       {
         "name": "pies",
@@ -276,6 +283,7 @@
   },
   {
     "name": "chicken roast",
+    "image": "",
     "ingredients": [
       {
         "name": "large whole chicken",
@@ -340,7 +348,8 @@
     ]
   },
   {
-    "name": "gammon eggs",
+    "name": "gammon & eggs",
+    "image": "./gammonegg.jpg",
     "ingredients": [
       {
         "name": "gammon joint",
@@ -361,6 +370,7 @@
   },
   {
     "name": "spaghetti bolognese",
+    "image": "./spaghetti-bolognese.jpg",
     "ingredients": [
       {
         "name": "mince",
@@ -406,6 +416,7 @@
   },
   {
     "name": "sausage and mash",
+    "image": "",
     "ingredients": [
       {
         "name":  "chipolata",
@@ -451,6 +462,7 @@
   },
   {
     "name": "sausages pasta",
+    "image": "",
     "ingredients": [
       {
         "name": "sausages",
@@ -481,6 +493,7 @@
   },
   {
     "name": "bbq honey sausage",
+    "image": "",
     "ingredients": [
       {
         "name": "bbq sauce",
@@ -511,6 +524,7 @@
   },
   {
     "name": "tuna pasta bake",
+    "image": "./tuna-pasta.jpg",
     "ingredients": [
       {
         "name": "tuna",
@@ -541,6 +555,7 @@
   },
   {
     "name": "macarone cheese",
+    "image": "",
     "ingredients": [
       {
         "name": "bacon",
@@ -576,6 +591,7 @@
   },
   {
     "name": "jacket patatoes",
+    "image": "",
     "ingredients": [
       {
         "name": "potatoes",
@@ -616,6 +632,7 @@
   },
   {
     "name": "fajitas",
+    "image": "",
     "ingredients": [
       {
         "name": "chicken",
@@ -641,6 +658,7 @@
   },
   {
     "name": "chinese chicken",
+    "image": "",
     "ingredients": [
       {
         "name": "chicken",
@@ -701,6 +719,7 @@
   },
   {
     "name": "spicy chicken",
+    "image": "",
     "ingredients": [
       {
         "name": "rice",
@@ -746,6 +765,7 @@
   },
   {
     "name": "salt and pepper chicken",
+    "image": "./Salt-and-Pepper-Chicken.jpg",
     "ingredients": [
       {
         "name": "chicken",
@@ -790,7 +810,8 @@
     ]
   },
   {
-    "name": "potatoe and leak soup",
+    "name": "potatoe and leek soup",
+    "image": "./Potato-Leek-Soup.jpg",
     "ingredients": [
       {
         "name": "potatoes",
@@ -821,6 +842,7 @@
   },
   {
     "name": "chicken casserole",
+    "image": "",
     "ingredients": [
       {
         "name": "chicken casserole pack",
@@ -866,6 +888,7 @@
   },
   {
     "name": "sausage casserole",
+    "image": "./sausagecasserole.jpg",
     "ingredients": [
       {
         "name":  "sausages",
