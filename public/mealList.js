@@ -88,7 +88,7 @@ const meals = [
   },
   {
     "name": "smoked fish",
-    "image": "",
+    "image": "./smoaked fish.jpg",
     "ingredients": [
       {
         "name": "smoked fish",
@@ -119,7 +119,7 @@ const meals = [
   },
   {
     "name": "marmite potatos",
-    "image": "",
+    "image": "./marmitepotatoes.jpg",
     "ingredients": [
       {
         "name": "potatoes",
@@ -145,7 +145,7 @@ const meals = [
   },
   {
     "name": "burgers",
-    "image": "",
+    "image": "./Cheeseburger.jpg",
     "ingredients": [
       {
         "name": "burgers",
@@ -283,7 +283,7 @@ const meals = [
   },
   {
     "name": "chicken roast",
-    "image": "",
+    "image": "./roast_chicken_.jpg",
     "ingredients": [
       {
         "name": "large whole chicken",
@@ -416,7 +416,7 @@ const meals = [
   },
   {
     "name": "sausage and mash",
-    "image": "",
+    "image": "./Bangers-and-Mash.jpg",
     "ingredients": [
       {
         "name":  "chipolata",
@@ -462,7 +462,7 @@ const meals = [
   },
   {
     "name": "sausages pasta",
-    "image": "",
+    "image": "./sausagepasta.jpg",
     "ingredients": [
       {
         "name": "sausages",
@@ -493,7 +493,7 @@ const meals = [
   },
   {
     "name": "bbq honey sausage",
-    "image": "",
+    "image": "./Honeysausages.jpg",
     "ingredients": [
       {
         "name": "bbq sauce",
@@ -554,8 +554,8 @@ const meals = [
     ]
   },
   {
-    "name": "macarone cheese",
-    "image": "",
+    "name": "macaroni cheese",
+    "image": "./macandcheese.jpg",
     "ingredients": [
       {
         "name": "bacon",
@@ -563,7 +563,7 @@ const meals = [
         "unit": "pack"
       },
       {
-        "name": "macarone",
+        "name": "macaroni",
         "amount": 1,
         "unit": "pack"
       },
@@ -590,8 +590,8 @@ const meals = [
     ]
   },
   {
-    "name": "jacket patatoes",
-    "image": "",
+    "name": "jacket potatoes",
+    "image": "./theperfectbakedpotat.jpg",
     "ingredients": [
       {
         "name": "potatoes",
@@ -632,7 +632,7 @@ const meals = [
   },
   {
     "name": "fajitas",
-    "image": "",
+    "image": "./fajitas.jpg",
     "ingredients": [
       {
         "name": "chicken",
@@ -658,7 +658,7 @@ const meals = [
   },
   {
     "name": "chinese chicken",
-    "image": "",
+    "image": "./Crispy-Sesame-Chicken.jpg",
     "ingredients": [
       {
         "name": "chicken",
@@ -719,7 +719,7 @@ const meals = [
   },
   {
     "name": "spicy chicken",
-    "image": "",
+    "image": "./Spicy-Chicken.jpg",
     "ingredients": [
       {
         "name": "rice",
@@ -810,7 +810,7 @@ const meals = [
     ]
   },
   {
-    "name": "potatoe and leek soup",
+    "name": "potato and leek soup",
     "image": "./Potato-Leek-Soup.jpg",
     "ingredients": [
       {
@@ -842,7 +842,7 @@ const meals = [
   },
   {
     "name": "chicken casserole",
-    "image": "",
+    "image": "./chickencasserole.jpg",
     "ingredients": [
       {
         "name": "chicken casserole pack",
