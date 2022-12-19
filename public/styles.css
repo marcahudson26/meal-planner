@@ -186,7 +186,7 @@ input[type=range]::-moz-range-thumb {
   width: 49px;
   height: 23.3px;
   border: 0;
-  background: url('mustachetaco.svg');
+  background: url('./mustachetaco.svg');
   cursor: pointer;
 }
 
